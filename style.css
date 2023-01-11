@@ -1,5 +1,6 @@
 body {
     font-family: 'Moon Dance', cursive;
+    margin: 0%;
 }
 
 h1 {
@@ -24,15 +25,21 @@ section {
 }
 
 .half-width img {
-    width: 80%;
+    width: 100%;
 }
 
 .link-button {
     text-decoration: none;
-    background-image: linear-gradient(salmon, orange);
+    background-image: linear-gradient(rgb(242, 171, 163), rgb(218, 114, 114));
     color: white;
     font-weight: 800;
     padding: 10px 40px;
     border-radius: 5px;
+
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 
 }
