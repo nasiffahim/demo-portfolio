@@ -5,6 +5,11 @@ body {
 
 h1 {
     font-size: 50px;
+
+}
+
+#space {
+    padding-left: 80px;
 }
 
 .org-clr {
@@ -15,9 +20,9 @@ h3 {
     font-size: 20px;
 }
 
-section {
+.flex-banner {
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -26,7 +31,7 @@ section {
 }
 
 .half-width img {
-    width: 100%;
+    width: 80%;
 }
 
 .link-button {
